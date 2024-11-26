@@ -3,16 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claudia Crespo</title>
-    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Agencia de Viajes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .header img {
+            width: 100%;
+            height: auto;
+        }
+        .header .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .header p {
+            font-size: 1.5em;
+        }
+        .header .btn {
+            background-color: #ff6200;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+            margin: 20px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>¡Hola Numericas!</h1>
-    <p>Bienvenidas a la aventura HTML.</p>
-    <p>Pronto seremos unas hackeadoras.</p>
+    <header class="header">
+        <img src="ruta-de-tu-imagen.jpg" alt="Publicidad de Agencia de Viajes">
+        <div class="content">
+            <h1>Explora el Mundo con Nosotros</h1>
+            <p>¡Viajar nunca fue tan fácil y emocionante!</p>
+            <a href="#" class="btn">Reserva Ahora</a>
+        </div>
+    </header>
 </body>
-<body>
-    <h2>¡Hola Numericas! Soy Jenifer</h2>
-    <p>Bienvenidas a la aventura HTML, Estamos en un proyecto juntas.</p>
-    <p>Pronto seremos unas hackeadoras.</p>
-</body>
+</html>
