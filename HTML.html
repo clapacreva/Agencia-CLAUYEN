@@ -49,7 +49,7 @@
 <body>
     <header class="header">
         <video autoplay loop>
-            <source src="Asi se siente mexico .mp4" type="video/mp4">
+            <source src="video mexico.mp4" type="video/mp4">
             Tu navegador no soporta videos HTML5.
         </video>
         <div class="content">
@@ -144,6 +144,7 @@
             width: 300px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
+            margin-bottom: 20px; /* Añadido margen inferior */
         }
         .plan img {
             width: 100%;
@@ -173,14 +174,17 @@
         }
         .btn-comprar {
             display: inline-block;
-            margin: 20px auto 10px;
+            margin: 20px auto; /* Centrando botón */
             padding: 10px 20px;
             background-color: #008000; /* Botón verde */
+            border: none;
             color: white;
             text-decoration: none;
             font-weight: bold;
+            font-size: 1em;
             border-radius: 5px;
             text-align: center;
+            cursor: pointer;
             transition: background-color 0.3s ease;
         }
         .btn-comprar:hover {
@@ -219,7 +223,7 @@
                 </div>
             </div>
             <div class="plan">
-                <img src="https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/xochimilco-tours.jpg?resize=1024%2C1024&ssl=1">
+                <img src="https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/xochimilco-tours.jpg?resize=1024%2C1024&ssl=1" alt="Ciudad de México Xochimilco">
                 <div class="plan-content">
                     <h3>Ciudad de México Xochimilco</h3>
                     <p class="price">Desde $250,000</p>
