@@ -1,2 +1,118 @@
-body{background-color:#FEC76F;text-align: center;}
-H1 {color:#CC9900; font-size:2.5em;}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.header video {
+    width: 100%;
+    height: auto;
+}
+.header .content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.header p {
+    font-size: 1.5em;
+}
+.header .btn {
+    background-color: #ff6200;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 20px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Descubre México */
+.descubre-mexico {
+    background-color: #008000; /* Fondo verde */
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.descubre-mexico .texto {
+    width: 60%; /* Ancho del texto */
+    padding: 10px;
+}
+.descubre-mexico .texto h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+.descubre-mexico .texto p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.descubre-mexico .imagen {
+    width: 35%; /* Ancho de la imagen */
+    padding: 10px;
+}
+.descubre-mexico .imagen img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Planes en México */
+.planes-mexico {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px 10px;
+}
+.planes-mexico h1 {
+    color: #b30000; /* Color rojo */
+    margin-bottom: 20px;
+}
+.planes-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.plan {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 5px; /* Añadido margen inferior */
+}
+.plan img {
+    width: 100%;
+    height: auto;
+}
+.plan-content {
+    padding: 15px;
+    text-align: left;
+}
+.btn-comprar {
+    background-color: #25e31b;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 20px 10px;
+    cursor: pointer;
+    border-radius: 5px;

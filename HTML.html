@@ -1,52 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+<link rel="stylesheet" href="Style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia de Viajes</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .header {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-        .header video {
-            width: 100%;
-            height: auto;
-        }
-        .header .content {
-            position: absolute;
-            top: 70%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .header h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        .header p {
-            font-size: 1.5em;
-        }
-        .header .btn {
-            background-color: #ff6200;
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 1em;
-            margin: 20px 10px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-    </style>
 </head>
 <body>
+    <!-- Sección Header -->
     <header class="header">
         <video autoplay loop>
             <source src="video mexico.mp4" type="video/mp4">
@@ -58,47 +19,8 @@
             <a href="Formulario.html" class="btn">Reserva Ahora</a>
         </div>
     </header>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubre México</title>
-    <style>
-        .descubre-mexico {
-            background-color: #008000; /* Fondo verde */
-            color: white;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .descubre-mexico .texto {
-            width: 60%; /* Ancho del texto */
-            padding: 10px;
-        }
-        .descubre-mexico .texto h2 {
-            font-size: 2.5em;
-            margin-bottom: 15px;
-        }
-        .descubre-mexico .texto p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-        .descubre-mexico .imagen {
-            width: 35%; /* Ancho de la imagen */
-            padding: 10px;
-        }
-        .descubre-mexico .imagen img {
-            width: 100%;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
+
+    <!-- Sección Descubre México -->
     <section class="descubre-mexico">
         <div class="texto">
             <h2>Descubre México</h2>
@@ -113,86 +35,8 @@
             <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2022/12/12.jpg" alt="Imagen Descubre México">
         </div>
     </section>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planes en México</title>
-    <style>
-        .planes-mexico {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 30px 10px;
-        }
-        .planes-mexico h1 {
-            color: #b30000; /* Color rojo */
-            margin-bottom: 20px;
-        }
-        .planes-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .plan {
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            width: 300px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            margin-bottom: 20px; /* Añadido margen inferior */
-        }
-        .plan img {
-            width: 100%;
-            height: auto;
-        }
-        .plan-content {
-            padding: 15px;
-            text-align: left;
-        }
-        .plan-content h3 {
-            margin-top: 0;
-            font-size: 1.2em;
-            color: #333;
-        }
-        .plan-content ul {
-            list-style: none;
-            padding: 0;
-            margin: 10px 0;
-            font-size: 0.9em;
-        }
-        .plan-content ul li {
-            margin-bottom: 8px;
-        }
-        .plan-content .price {
-            font-weight: bold;
-            color: #009900; /* Verde para el precio */
-        }
-        .btn-comprar {
-            display: inline-block;
-            margin: 20px auto; /* Centrando botón */
-            padding: 10px 20px;
-            background-color: #008000; /* Botón verde */
-            border: none;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1em;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .btn-comprar:hover {
-            background-color: #005700;
-        }
-    </style>
-</head>
-<body>
+
+    <!-- Sección Planes en México -->
     <section class="planes-mexico">
         <h1>Planes en México</h1>
         <div class="planes-container">
@@ -224,31 +68,6 @@
             </div>
             <div class="plan">
                 <img src="https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/xochimilco-tours.jpg?resize=1024%2C1024&ssl=1" alt="Ciudad de México Xochimilco">
-                <div class="plan-content">
-                    <h3>Ciudad de México Xochimilco</h3>
-                    <p class="price">Desde $250,000</p>
-                    <ul>
-                        <li>Entrada al Museo Frida Kahlo</li>
-                        <li>Paseo en trajinera</li>
-                        <li>Visita a Xochimilco y Coyoacán</li>
-                        <li>Visita a una tienda cooperativa</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="plan">
-                <img src="https://via.placeholder.com/300x200" alt="Cancún Isla Mujeres">
-                <div class="plan-content">
-                    <h3>Cancún Isla Mujeres</h3>
-                    <p class="price">Desde $300,000</p>
-                    <ul>
-                        <li>Tour en catamarán ida y vuelta</li>
-                        <li>Snorkel en El Meco</li>
-                        <li>Fruta de mano y galletas a bordo</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="plan">
-                <img src="https://via.placeholder.com/300x200" alt="Ciudad de México Xochimilco">
                 <div class="plan-content">
                     <h3>Ciudad de México Xochimilco</h3>
                     <p class="price">Desde $250,000</p>
