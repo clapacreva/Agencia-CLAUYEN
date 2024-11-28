@@ -1,196 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+<link rel="stylesheet" href="Style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia de Viajes</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .header {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-        .header video {
-            width: 100%;
-            height: auto;
-        }
-        .header .content {
-            position: absolute;
-            top: 70%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .header h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        .header p {
-            font-size: 1.5em;
-        }
-        .header .btn {
-            background-color: #ff6200;
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 1em;
-            margin: 20px 10px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .descubre-mexico {
-            background-color: #008000; /* Fondo verde */
-            color: white;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .descubre-mexico .texto {
-            width: 60%; /* Ancho del texto */
-            padding: 10px;
-        }
-        .descubre-mexico .texto h2 {
-            font-size: 2.5em;
-            margin-bottom: 15px;
-        }
-        .descubre-mexico .texto p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-        .descubre-mexico .imagen {
-            width: 35%; /* Ancho de la imagen */
-            padding: 10px;
-        }
-        .descubre-mexico .imagen img {
-            width: 100%;
-            border-radius: 5px;
-        }
-        .planes-mexico {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 30px 10px;
-        }
-        .planes-mexico h1 {
-            color: #b30000; /* Color rojo */
-            margin-bottom: 20px;
-        }
-        .planes-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .plan {
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            width: 300px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            margin-bottom: 20px;
-        }
-        .plan img {
-            width: 100%;
-            height: auto;
-        }
-        .plan-content {
-            padding: 15px;
-            text-align: left;
-        }
-        .plan-content h3 {
-            margin-top: 0;
-            font-size: 1.2em;
-            color: #333;
-        }
-        .plan-content ul {
-            list-style: none;
-            padding: 0;
-            margin: 10px 0;
-            font-size: 0.9em;
-        }
-        .plan-content ul li {
-            margin-bottom: 8px;
-        }
-        .plan-content .price {
-            font-weight: bold;
-            color: #009900; /* Verde para el precio */
-        }
-        .btn-comprar {
-            display: inline-block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #008000; /* Botón verde */
-            border: none;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1em;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .btn-comprar:hover {
-            background-color: #005700;
-        }
-        .testimonial-section {
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .testimonial-section h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-        .testimonials {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .testimonial {
-            background: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            max-width: 300px;
-            text-align: left;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            color: #333;
-        }
-        .testimonial p {
-            font-size: 1rem;
-            margin: 10px 0;
-        }
-        .testimonial .author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-top: 10px;
-        }
-        .author img {
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            object-fit: cover;
-        }
-        .author span {
-            font-weight: bold;
-        }
-        .author .stars {
-            color: #ffc107;
-            font-size: 0.9rem;
-        }
-    </style>
 </head>
 <body>
+    <!-- Sección Header -->
     <header class="header">
         <video autoplay loop>
             <source src="video mexico.mp4" type="video/mp4">
@@ -202,6 +19,8 @@
             <a href="Formulario.html" class="btn">Reserva Ahora</a>
         </div>
     </header>
+
+    <!-- Sección Descubre México -->
     <section class="descubre-mexico">
         <div class="texto">
             <h2>Descubre México</h2>
@@ -216,6 +35,8 @@
             <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2022/12/12.jpg" alt="Imagen Descubre México">
         </div>
     </section>
+
+    <!-- Sección Planes en México -->
     <section class="planes-mexico">
         <h1>Planes en México</h1>
         <div class="planes-container">
@@ -246,33 +67,56 @@
                     </ul>
                 </div>
             </div>
-            <div class="plan">
-                <img src="https://thecancunsun.com/wp-content/uploads/2022/09/Isla-Mujeres-Voted-Best-Island-Destination-In-Mexico-This-Year-2.jpg" alt="Cancún Isla Mujeres">
-                <div class="plan-content">
-                    <h3>Cancún Isla Mujeres</h3>
-                    <p class="price">Desde $300,000</p>
-                    <ul>
-                        <li>Tour en catamarán ida y vuelta</li>
-                        <li>Snorkel en El Meco</li>
-                        <li>Fruta de mano y galletas a bordo</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="plan">
-                <img src="https://univers-maya.fr/wp-content/uploads/shutterstock-356871482-650x650.jpg" alt="Excursion a Chinchén Itzá">
-                <div class="plan-content">
-                    <h3>Excursion a Chinchén Itza</h3>
-                    <p class="price">Desde $250,000</p>
-                    <ul>
-                        <li>Disfrute de la compañía de un guía bilingüe certificado durante toda la excursión</li>
-                        <li>Visita un increíble cenote maya (sumidero)</li>
-                        <li>Área especial reservada para la comida buffet</li>
-                    </ul>
-                </div>
-            </div>
         </div>
         <a href="Formulario.html" class="btn-comprar">COMPRA AQUÍ</a>
     </section>
+
+ <!-- Sección lo que necesitas saber -->
+    <section class="slider-section">
+        <h1>¡LO QUE NECESITAS SABER!</h1>
+        <div class="slider">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="internet mexico.png" alt="Imagen 1">
+                    <div class="info">
+                        <h3>Como tener internet</h3>
+                        <p>puedes contratar un servicio de un proveedor como Telmex, Totalplay, Izzi o Megacable.  También puedes usar datos móviles con un plan de celular prepago o postpago de compañías como Telcel, AT&T o Movistar. </p>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="comida mexico.jpg" alt="Imagen 2">
+                    <div class="info">
+                        <h3>Gastronomia</h3>
+                        <p> es rica y diversa, famosa por sus sabores intensos, ingredientes como maíz, chile y frijol, y platos icónicos como tacos, mole, tamales y pozole.</p>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="transporte mexico.jpg" alt="Imagen 3">
+                    <div class="info">
+                        <h3>Transporte</h3>
+                        <p>Incluye una amplia red de autobuses, metro en ciudades principales, taxis, aplicaciones de transporte, y aeropuertos que conectan el país. Es diverso y accesible, aunque enfrenta retos de infraestructura y tráfico en áreas urbanas.</p>
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <img src="economia-mexico-crecimiento.jpg" alt="Imagen 4">
+                    <div class="info">
+                        <h3>Economia</h3>
+                        <p>El peso mexicano (MXN) es la moneda oficial. Lleva efectivo en pesos para mercados locales y taxis, pero usa tarjetas en grandes ciudades. Cambia dinero en casas de cambio o bancos por mejores tasas y evita cambiar en aeropuertos. Revisa tarifas de conversión con tu banco</p>
+                </div>
+            </div>
+            <!-- Controles -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- Sección testimonial -->
     <section class="testimonial-section">
         <h2>NUESTROS VIAJEROS FAVORITOS</h2>
         <div class="testimonials">
