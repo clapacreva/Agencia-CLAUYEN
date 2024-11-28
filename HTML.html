@@ -44,29 +44,6 @@
             cursor: pointer;
             border-radius: 5px;
         }
-    </style>
-</head>
-<body>
-    <header class="header">
-        <video autoplay loop>
-            <source src="video mexico.mp4" type="video/mp4">
-            Tu navegador no soporta videos HTML5.
-        </video>
-        <div class="content">
-            <h1>Explora el Mundo con Nosotros</h1>
-            <p>¡Viajar nunca fue tan fácil y emocionante!</p>
-            <a href="Formulario.html" class="btn">Reserva Ahora</a>
-        </div>
-    </header>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubre México</title>
-    <style>
         .descubre-mexico {
             background-color: #008000; /* Fondo verde */
             color: white;
@@ -96,32 +73,6 @@
             width: 100%;
             border-radius: 5px;
         }
-    </style>
-</head>
-<body>
-    <section class="descubre-mexico">
-        <div class="texto">
-            <h2>Descubre México</h2>
-            <p>
-                Un país vibrante donde la tradición se encuentra con la modernidad. Desde las playas paradisíacas de Cancún hasta las majestuosas ruinas de Chichén Itzá, México ofrece una mezcla única de paisajes deslumbrantes, historia milenaria y una cultura que te hará sentir como en casa.
-            </p>
-            <p>
-                Deléitate con su gastronomía reconocida como Patrimonio de la Humanidad, donde los tacos, el mole y el tequila cuentan historias de sus raíces. Explora pueblos mágicos llenos de color y calidez, o sumérgete en las cristalinas aguas de sus cenotes. México no es solo un destino; es una experiencia que quedará en tu corazón para siempre. ¡Vive la magia de México y crea recuerdos inolvidables!
-            </p>
-        </div>
-        <div class="imagen">
-            <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2022/12/12.jpg" alt="Imagen Descubre México">
-        </div>
-    </section>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planes en México</title>
-    <style>
         .planes-mexico {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -144,7 +95,7 @@
             width: 300px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            margin-bottom: 20px; /* Añadido margen inferior */
+            margin-bottom: 20px;
         }
         .plan img {
             width: 100%;
@@ -174,7 +125,7 @@
         }
         .btn-comprar {
             display: inline-block;
-            margin: 20px auto; /* Centrando botón */
+            margin: 20px auto;
             padding: 10px 20px;
             background-color: #008000; /* Botón verde */
             border: none;
@@ -190,9 +141,81 @@
         .btn-comprar:hover {
             background-color: #005700;
         }
+        .testimonial-section {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .testimonial-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .testimonials {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .testimonial {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 300px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+        .testimonial p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+        .testimonial .author {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .author img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+        }
+        .author span {
+            font-weight: bold;
+        }
+        .author .stars {
+            color: #ffc107;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
+    <header class="header">
+        <video autoplay loop>
+            <source src="video mexico.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5.
+        </video>
+        <div class="content">
+            <h1>Explora el Mundo con Nosotros</h1>
+            <p>¡Viajar nunca fue tan fácil y emocionante!</p>
+            <a href="Formulario.html" class="btn">Reserva Ahora</a>
+        </div>
+    </header>
+    <section class="descubre-mexico">
+        <div class="texto">
+            <h2>Descubre México</h2>
+            <p>
+                Un país vibrante donde la tradición se encuentra con la modernidad. Desde las playas paradisíacas de Cancún hasta las majestuosas ruinas de Chichén Itzá, México ofrece una mezcla única de paisajes deslumbrantes, historia milenaria y una cultura que te hará sentir como en casa.
+            </p>
+            <p>
+                Deléitate con su gastronomía reconocida como Patrimonio de la Humanidad, donde los tacos, el mole y el tequila cuentan historias de sus raíces. Explora pueblos mágicos llenos de color y calidez, o sumérgete en las cristalinas aguas de sus cenotes. México no es solo un destino; es una experiencia que quedará en tu corazón para siempre. ¡Vive la magia de México y crea recuerdos inolvidables!
+            </p>
+        </div>
+        <div class="imagen">
+            <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2022/12/12.jpg" alt="Imagen Descubre México">
+        </div>
+    </section>
     <section class="planes-mexico">
         <h1>Planes en México</h1>
         <div class="planes-container">
@@ -211,18 +234,6 @@
                 </div>
             </div>
             <div class="plan">
-                <img src="https://thecancunsun.com/wp-content/uploads/2022/09/Isla-Mujeres-Voted-Best-Island-Destination-In-Mexico-This-Year-2.jpg" alt="Cancún Isla Mujeres">
-                <div class="plan-content">
-                    <h3>Cancún Isla Mujeres</h3>
-                    <p class="price">Desde $300,000</p>
-                    <ul>
-                        <li>Tour en catamarán ida y vuelta</li>
-                        <li>Snorkel en El Meco</li>
-                        <li>Fruta de mano y galletas a bordo</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="plan">
                 <img src="https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/xochimilco-tours.jpg?resize=1024%2C1024&ssl=1" alt="Ciudad de México Xochimilco">
                 <div class="plan-content">
                     <h3>Ciudad de México Xochimilco</h3>
@@ -236,7 +247,7 @@
                 </div>
             </div>
             <div class="plan">
-                <img src="https://via.placeholder.com/300x200" alt="Cancún Isla Mujeres">
+                <img src="https://thecancunsun.com/wp-content/uploads/2022/09/Isla-Mujeres-Voted-Best-Island-Destination-In-Mexico-This-Year-2.jpg" alt="Cancún Isla Mujeres">
                 <div class="plan-content">
                     <h3>Cancún Isla Mujeres</h3>
                     <p class="price">Desde $300,000</p>
@@ -248,20 +259,56 @@
                 </div>
             </div>
             <div class="plan">
-                <img src="https://via.placeholder.com/300x200" alt="Ciudad de México Xochimilco">
+                <img src="https://univers-maya.fr/wp-content/uploads/shutterstock-356871482-650x650.jpg" alt="Excursion a Chinchén Itzá">
                 <div class="plan-content">
-                    <h3>Ciudad de México Xochimilco</h3>
+                    <h3>Excursion a Chinchén Itza</h3>
                     <p class="price">Desde $250,000</p>
                     <ul>
-                        <li>Entrada al Museo Frida Kahlo</li>
-                        <li>Paseo en trajinera</li>
-                        <li>Visita a Xochimilco y Coyoacán</li>
-                        <li>Visita a una tienda cooperativa</li>
+                        <li>Disfrute de la compañía de un guía bilingüe certificado durante toda la excursión</li>
+                        <li>Visita un increíble cenote maya (sumidero)</li>
+                        <li>Área especial reservada para la comida buffet</li>
                     </ul>
                 </div>
             </div>
         </div>
         <a href="Formulario.html" class="btn-comprar">COMPRA AQUÍ</a>
     </section>
+    <section class="testimonial-section">
+        <h2>NUESTROS VIAJEROS FAVORITOS</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"¡Todo perfecto! México fue increíble gracias a la organización impecable de la agencia. Sin duda, volvería a viajar con ellos."</p>
+                <div class="author">
+                    <img src="ruta-a-la-foto-de-luis.jpg" alt="Luis Salazar">
+                    <div>
+                        <span>Luis Salazar</span>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>"Lo que más me impresionó fue la planificación detallada de mi viaje a México. Los guías locales contratados por la agencia eran muy conocedores y amables."</p>
+                <div class="author">
+                    <img src="ruta-a-la-foto-de-julia.jpg" alt="Julia Fuentes">
+                    <div>
+                        <span>Julia Fuentes</span>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>"¡Un viaje inolvidable! Gracias a la agencia, tuve la mejor experiencia en México. Todo estuvo perfectamente organizado."</p>
+                <div class="author">
+                    <img src="ruta-a-la-foto-de-lucia.jpg" alt="Lucía Ramos">
+                    <div>
+                        <span>Lucía Ramos</span>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
+
+
