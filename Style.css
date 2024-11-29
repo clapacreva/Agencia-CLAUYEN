@@ -244,3 +244,35 @@ body {
         color: #ffc107;
         font-size: 1.2em;
     }
+
+/* Footer */ 
+.footer { 
+    background-color: #333; 
+    color: white; 
+    padding: 20px 0; 
+} 
+.footer .container { 
+    display: flex; 
+    justify-content: space-between; /* Cambiado para espacio entre elementos */ 
+    align-items: center; /* Alinea verticalmente los elementos */ 
+    text-align: left; 
+} 
+.footer-logo { 
+    margin-right: 2px; /* Espacio entre el logo y el primer bloque de información */ 
+} 
+.footer-logo img { 
+    width: 300px; /* Ajusta el tamaño según tu diseño */ 
+    height: auto; 
+} 
+.footer-section { 
+    max-width: 300px; 
+} 
+.footer-section h3 { 
+    margin-top: 0; 
+    font-size: 1.2em; 
+} 
+.footer-section p { 
+    margin: 0.5em 0; 
+    line-height: 1.6;
+    margin-right: 8px;
+}
